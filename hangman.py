@@ -2,8 +2,9 @@ import random
 
 #Author NeverPlayFair
 
+#Below word what i used in project, but u can add your custom words.
 def hangman():
-    words = random.choice(["jazz","buzz","quiz","beautiful","recommend","puff","fox","grey","friend","word"])
+    words = random.choice(["jazz","buzz","quiz","beautiful","recommend","puff","fox","grey","friend","word"]) 
     validLetters = 'abcdefghijklmnopqrstuvwxyz'
     rounds = 10
     guessmade = ''
